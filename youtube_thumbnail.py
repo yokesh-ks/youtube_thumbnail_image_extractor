@@ -29,3 +29,13 @@ if yt_url != '':
   st.write('YouTube video thumbnail image URL: ', yt_img)
 else:
   st.write('☝️ Enter URL to continue ...')
+
+
+# Footer
+st.markdown('---')
+st.markdown(
+    "<div style='text-align: center; color: gray;'>"
+    "Made with <span style='color: #FF0000'>&hearts;</span> by <a href='https://www.yokesh.in/' style='text-decoration: none; color: gray;'>Yokesh</a>"
+    "</div>",
+    unsafe_allow_html=True
+)
